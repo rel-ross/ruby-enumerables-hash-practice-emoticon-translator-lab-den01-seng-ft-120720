@@ -10,7 +10,7 @@ def load_library(file)
    
 
   end
-  binding.pry
+
   emoticons
 end
 
