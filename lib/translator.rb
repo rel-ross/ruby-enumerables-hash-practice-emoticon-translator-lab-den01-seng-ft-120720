@@ -15,8 +15,7 @@ load_library(file)
 end
 
 def get_japanese_emoticon(file, emoticon_request)
-YAML.load_file(file)
- japanese_translation = emoticons[emoticon_request][1]
+load_library(file)
  
   # code goes here
 end
