@@ -7,10 +7,7 @@ def load_library(file)
   emoticons[key]={}
    emoticons[key][:english] = value[0]
    emoticons[key][:japanese] = value[1]
-   
-
   end
-
   emoticons
 end
 
@@ -21,6 +18,7 @@ def get_japanese_emoticon(file, emoticon_request)
   # code goes here
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(file, emoticon_request)
+  emoticons = YAML.load_file(file)
+ japanese_translation = emoticons[emoticon_request][1]
 end
