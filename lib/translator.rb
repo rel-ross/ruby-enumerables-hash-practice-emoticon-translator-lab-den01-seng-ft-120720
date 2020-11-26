@@ -11,7 +11,7 @@ def load_library(file)
   emoticons
 end
 def get_english_meaning(file, emoticon_request)
-
+YAML.load_file(file)
 end
 def get_japanese_emoticon(file, emoticon_request)
 YAML.load_file(file)
