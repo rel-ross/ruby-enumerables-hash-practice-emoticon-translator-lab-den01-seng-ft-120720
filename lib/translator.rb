@@ -28,4 +28,5 @@ load_library(file).each do |key, value|
     binding.pry
   end
 end
+return "Sorry, that emoticon was not found"
 end
