@@ -8,9 +8,9 @@ def load_library(file)
    emoticons[key][:english] = value[0]
    emoticons[key][:japanese] = value[1]
    
-binding.pry
+
   end
-  
+  binding.pry
   emoticons
 end
 
