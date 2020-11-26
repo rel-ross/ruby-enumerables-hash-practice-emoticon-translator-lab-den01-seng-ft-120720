@@ -16,7 +16,7 @@ load_library(file).each do |key, value|
 if value[:japanese] == emoticon_request
   return key
 end
-  binding.pry
+
 end
 end
 
