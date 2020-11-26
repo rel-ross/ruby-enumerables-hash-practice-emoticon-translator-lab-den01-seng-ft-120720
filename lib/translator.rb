@@ -21,9 +21,9 @@ end
 return "Sorry, that emoticon was not found"
 end
 
-def get_japanese_emoticon(file, emoticon_request)
+def get_japanese_emoticon(file, english_emoticon)
 load_library(file).each do |key, value|
-  if key[:english] == emoticon_request
+  if key[:english] == english_emoticon
     return value[:japanese]
     binding.pry
   end
