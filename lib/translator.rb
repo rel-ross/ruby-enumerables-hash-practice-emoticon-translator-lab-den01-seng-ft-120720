@@ -11,7 +11,10 @@ def load_library(file)
   emoticons
 end
 def get_english_meaning(file, emoticon_request)
-load_library(file).each do 
+translation = ""
+load_library(file).each do |key, value|
+  translation
+  
 end
 
 def get_japanese_emoticon(file, emoticon_request)
