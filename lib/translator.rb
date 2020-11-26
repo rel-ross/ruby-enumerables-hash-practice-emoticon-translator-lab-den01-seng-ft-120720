@@ -13,7 +13,7 @@ end
 def get_english_meaning(file, emoticon_request)
 
 load_library(file).each do |key, value|
-  translation = [key][:english]
+
   binding.pry
 end
 end
