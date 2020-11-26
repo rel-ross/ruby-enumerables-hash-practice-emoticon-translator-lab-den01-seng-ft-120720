@@ -11,7 +11,7 @@ def load_library(file)
   emoticons
 end
 def get_english_meaning(file, emoticon_request)
-load_library(file)
+load_library(file).each do 
 end
 
 def get_japanese_emoticon(file, emoticon_request)
