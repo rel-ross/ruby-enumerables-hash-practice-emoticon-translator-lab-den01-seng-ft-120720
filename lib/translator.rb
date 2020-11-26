@@ -5,8 +5,8 @@ def load_library(file)
   emoticons  = {}
   YAML.load_file(file).each do |key, value|
   emoticons[key]={}
-   emoticons[key][:english] = ""
-   emoticons[key][:japanese] = ""
+   emoticons[key][:english] = value[0]
+   emoticons[key][:japanese] = value[1]
    
 binding.pry
   end
